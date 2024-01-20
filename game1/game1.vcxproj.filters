@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\b2Box">
+      <UniqueIdentifier>{4746bc04-cfa7-4569-857f-ab5ac2877a77}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MiscStuff.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Particles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleHandle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleFormation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChunkHandle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsWorld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_block_allocator.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_body.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_broad_phase.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_chain_circle_contact.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_chain_polygon_contact.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_chain_shape.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_circle_contact.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_circle_shape.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_collide_circle.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_collide_edge.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_collide_polygon.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_collision.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_contact.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_contact_manager.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_contact_solver.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_distance.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_distance_joint.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_draw.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_dynamic_tree.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_edge_circle_contact.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_edge_polygon_contact.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_edge_shape.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_fixture.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_friction_joint.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_gear_joint.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_island.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_joint.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_math.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_motor_joint.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_mouse_joint.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_polygon_circle_contact.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_polygon_contact.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_polygon_shape.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_prismatic_joint.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_pulley_joint.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_revolute_joint.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_rope.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_settings.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_stack_allocator.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_time_of_impact.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_timer.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_weld_joint.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_wheel_joint.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_world.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="b2_world_callbacks.cpp">
+      <Filter>Source Files\b2Box</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundHandle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PerlinNoise.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LightHandle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UIHandle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="JemScript.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MiscStuff.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Particles.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header_stack.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleHandle.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleFormation.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunkHandle.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsWorld.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Source Files\b2Box</Filter>
+    </ClInclude>
+    <ClInclude Include="b2_chain_circle_contact.h">
+      <Filter>Source Files\b2Box</Filter>
+    </ClInclude>
+    <ClInclude Include="b2_chain_polygon_contact.h">
+      <Filter>Source Files\b2Box</Filter>
+    </ClInclude>
+    <ClInclude Include="b2_circle_contact.h">
+      <Filter>Source Files\b2Box</Filter>
+    </ClInclude>
+    <ClInclude Include="b2_contact_solver.h">
+      <Filter>Source Files\b2Box</Filter>
+    </ClInclude>
+    <ClInclude Include="b2_edge_circle_contact.h">
+      <Filter>Source Files\b2Box</Filter>
+    </ClInclude>
+    <ClInclude Include="b2_edge_polygon_contact.h">
+      <Filter>Source Files\b2Box</Filter>
+    </ClInclude>
+    <ClInclude Include="b2_island.h">
+      <Filter>Source Files\b2Box</Filter>
+    </ClInclude>
+    <ClInclude Include="b2_polygon_circle_contact.h">
+      <Filter>Source Files\b2Box</Filter>
+    </ClInclude>
+    <ClInclude Include="b2_polygon_contact.h">
+      <Filter>Source Files\b2Box</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundHandle.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PerlinNoise.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LightHandle.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseClass.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UIHandle.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JemScript.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHandle.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game1.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
